@@ -1,0 +1,43 @@
+*::selection {
+	color: #ff0000; 
+	background: #000000;
+}
+
+body{
+    background: linear-gradient(to bottom, #00cc66 0%, #cc0066 100%);    
+}
+
+.media{
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    color: #000100;
+}
+
+p,h2{
+    
+    color: #000100;
+}
+
+.flex-conteiner{
+	display: flex;
+	/* si es para escritorio
+	height: 110vh;*/
+	/* si es para notebook
+	height: 200;*/
+	height: 110vh;
+	flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.flex-item{
+	margin: 15px;
+	min-width: 400px;
+	height: 150px;
+	width: 400px;
+	flex-grow: 1;
+	flex: 1;
+}

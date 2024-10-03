@@ -1,0 +1,79 @@
+<!-- Nos indica que el documento es de tipo html5 -->
+<!DOCTYPE html>
+
+<!-- Acá comienza el documento html, que tiene el atributo "lang" (lenguaje), en este caso usamos "es" de español -->
+<html lang="es">
+
+    <!-- Acá comienza el head, que es donde se encuentra toda la información sobre nuestra página. No se visualiza cuando 
+    la cargamos -->
+    <head>
+
+        <!-- Las etiquetas "meta" las usamos para enviar información al buscador, las siguientes se cargan con la 
+        plantilla de inicio de html5 -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Este es el título de la página y es que aparece en las pestañas del buscador -->
+        <title>Yo puedo programar</title>
+
+    </head>
+
+    <!-- Acá comienza el body, la parte del documento que contiene los elementos que vamos a mostrar -->
+    <body>
+
+        <!-- Estos son los encabezados, h1 para el más importante, h6 para el menos.  -->
+        <h1>Este es un encabezado h1</h1>
+        <h2>Este es un encabezado h2</h2>
+        <h3>Este es un encabezado h3</h3>
+        <h4>Este es un encabezado h4</h4>
+        <h5>Este es un encabezado h5</h5>
+        <h6>Este es un encabezado h6</h6>
+
+        <!-- Estos son los párrafos -->
+        <p>Este es un párrafo</p>
+        <p>Este es otro párrafo</p>
+        <!-- si escribimos "lorem" y damos "enter" se genera un párrafo de prueba, es útil cuando queremos probar texto de 
+        manera rápida -->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo rem aspernatur. Impedit fugit magnam 
+        laudantium possimus amet consectetur facere ut veniam beatae omnis odit cum, sunt, neque, delectus perferendis!</p>
+        
+        <!-- Este es un link. El atributo href nos indica hacia donde nos va a llevar ese link -->
+        <a href="https://junior.org.ar/">LINK A JUNIOR</a>
+
+        <!-- esta etiqueta genera un salto de línea, no tiene etiqueta de cierre -->
+        <br> 
+
+        <!-- Esta es una imágen. El atributo "src" nos indica el archivo que vamos a usar como imágen, el atributo "alt" 
+        nos indica el texto alternativo que vamos a usar como descripción de la imágen y el atributo "width" nos indica 
+        el ancho, que en este caso mide en pixeles (px). Modificando el ancho, se modifica de manera automática el alto 
+        para que la imágen siga manteniendo las mismas proporciones. Este elemento imágen no lleva etiqueta de cierre  -->
+        <h2>Esta es una imágen</h2>
+        <img src="imagenHTML.png" alt="logo html" width="200px">
+
+        <!-- Para generar una lista ordenada usamos la etiqueta "ol" y para generar una lista desordenada usamos la etiqueta 
+        "ul". Cada una de ellas deberá marcar cada ítem con la etiqueta "li". Las listas ordenadas llevan un número delante
+        que se genera de manera automática para, justamente, ordenar ese tipo de lista -->
+        <h2>Esta es una lista ordenada:</h2>
+        <ol>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ol>
+        <h2>Esta es una lista desordenada:</h2>
+        <ul>
+            <li>estructura</li>
+            <li>estilos</li>
+            <li>funcionalidad</li>
+        </ul>
+
+        <!-- Los elemtentos div son sumamente importantes ya que nos ayudan a crear "cajas" de código. Así podemos dar 
+        estilos a un conjunto de elementos o identificarlos para darles funcionalidad. -->
+        <div>
+            <h2>Este es un video embebido</h2>
+            <!-- vamos a generar un video con el código que copiamos de youtube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KeyquUlfNPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </body>
+</html>

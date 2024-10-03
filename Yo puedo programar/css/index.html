@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yo puedo programar</title>
+
+        <!-- Acá linkeamos la hoja de estilos para aplicar css a nuestros elementos html -->
+        <link rel="stylesheet" href="estilos.css">
+
+    </head>
+
+    <body>
+
+        <!-- vamos a alinear al centro a este h1 (ver estilos.css) -->
+        <!-- tambien aplicamos la clase fondo-verde para compartir estilo con otros elementos -->
+        <h1 class="fondo-verde">Aplicando CSS</h1>
+
+        <!-- podemos agregar estilos en el html, siempre va a priorizar al que tengamos en la hoja de estilos. 
+        Como ejemplo vamos a aplicar dos colores de letra a este h1. Uno lo vemos acá y el otro (aqua) hay que buscarlo 
+        en estilos.css  -->
+        <h2 style="color: blueviolet;">Este encabezado h2 prioriza el estilo que tenemos en el index.html -> color 
+        blueviolet.</h2>
+
+        <p class="fondo-verde">Todo el documento va a tener la misma fuente, en este caso Lucida Sans. Lo aplicamos con un selector 
+        universal en la hoja de estilos (*)</p>
+        <p>Tambien aplicamos a todo el documento un color de fondo con el atributo background-color</p>
+    
+        
+        <!-- como este h2 no tiene un atributo style, va a tomar el estivo que tenemos en css -->
+        <h2>Esta es un h2 sin estilos en el html, toma el color que tenemos en el css</h2>
+
+        <!-- usamos un id para generar el mismo estilo a todos los elementos dentros de este div. en este ejemplo 
+        los vamos a centrar -->
+        <div id="elementos-centrados">
+            <h2 >elementos centrados con un selector id</h2>
+            <img src="imagenHTML.png" alt="logo html" width="200px"><br>
+            <a href="https://junior.org.ar/" class="fondo-verde">LINK A JUNIOR</a><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KeyquUlfNPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3 class="fondo-verde">este elemento y todos los elementos que tienen fondo verde aplican la misma clase</h3>
+
+        <p id="parrafo-con-borde">Hacemos otro párrafo con id para aplicar un borde y aumentar el tamaño de la letra</p>
+
+    </body>
+</html>

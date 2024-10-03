@@ -1,0 +1,2 @@
+Mi página web simularía un blog de comidas “exóticas” en la cual tendrían una sección(mi página) de recetas de helados “exóticos”. En la cual además de enseñarte nuevas recetas te recomienda unos videos relacionados con el tema.
+Posdata: tiene versión de escritorio(monitor grande) y de notebook(monitor pequeño), pero hay que hacer el cambio manualmente.

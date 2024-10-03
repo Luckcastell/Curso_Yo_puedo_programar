@@ -1,0 +1,35 @@
+/* usamos el asterisco como selector universal. el estilo que usemos acá va a aplicar a todo el documento. en este ejemplo 
+elegimos un tipo de letra con el etributo font-family */
+/* tambien aplicamos a todo el documento un color de fondo con el atributo background-color */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+}
+
+/* aplicamos el atributo text-align para alinear los elementos, en este caso a los h1 los alineamos al centro */
+h1{
+    text-align: center;
+}
+
+/* damos estilos a los elemento h2, pero va a priorizar el que tiene en el index, si es que lo tiene */
+h2 {
+    color: crimson;
+}
+
+/* este estilo se aplica unicamente al elemento que tiene un id elementos-centrados */
+#elementos-centrados{
+    text-align: center;
+}
+
+/* aplicamos clases para repetir estilos es distintos elementos */
+.fondo-verde{
+    background-color: darkolivegreen;
+    padding: 10px;
+}
+
+/* usamor border para generar un borde en este caso de 3 pixeles de ancho, sólido (para que se vea) y de color goldernrod.
+tambien agrandamos el tamaño de la letra con el atributo font-size */
+#parrafo-con-borde{
+    border: 3px solid goldenrod;
+    font-size: 30px;
+}
